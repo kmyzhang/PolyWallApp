@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PolyWall</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="login_title">Login</string>
+    <string name="create_act">Create Account</string>
+    <string name="str_login_in">Login</string>
+    <string name ="str_sign_up">Not a member? Sign Up Now!</string>
+    <string name="etEmail">Email</string>
+    <string name="etPassword">Password</string>
+    <string name ="sign_up_text">Sign Up</string>
+    <string name ="route_list_text">All Routes</string>
+    <string name ="personal_log_text">My Log</string>
+    <string name ="profile_text">Profile</string>
+</resources>

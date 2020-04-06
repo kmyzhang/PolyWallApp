@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "91786577299",
+    "firebase_url": "https://polywallapp.firebaseio.com",
+    "project_id": "polywallapp",
+    "storage_bucket": "polywallapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91786577299:android:6a819dddbc91a42d12d466",
+        "android_client_info": {
+          "package_name": "com.example.polywallapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91786577299-lsl8s4gkt4n8jlb1t0hvo0cue8reln79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polywallapp",
+            "certificate_hash": "b5c4894cc24e06a8080a552c12bfa823f2fd41c2"
+          }
+        },
+        {
+          "client_id": "91786577299-m8l2dpk8mm0d47fjgbmee9r0cstcpidl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polywallapp",
+            "certificate_hash": "eb92bfa31a1a7c0c5c143e03b6ef18dcec6dece7"
+          }
+        },
+        {
+          "client_id": "91786577299-6tlegnqrunnefna4rd2njeqntrm1drug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3KUInDFG3Z7_GTHKsdfGc1VTiIjpSebQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91786577299-6tlegnqrunnefna4rd2njeqntrm1drug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91786577299:android:0375b2f56a7e70be12d466",
+        "android_client_info": {
+          "package_name": "com.senders.polywallapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91786577299-9st12irfd6icgbq8fga6sl4egkq9o37l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.senders.polywallapp",
+            "certificate_hash": "b5c4894cc24e06a8080a552c12bfa823f2fd41c2"
+          }
+        },
+        {
+          "client_id": "91786577299-6tlegnqrunnefna4rd2njeqntrm1drug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3KUInDFG3Z7_GTHKsdfGc1VTiIjpSebQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91786577299-6tlegnqrunnefna4rd2njeqntrm1drug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

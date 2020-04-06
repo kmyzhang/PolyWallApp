@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/route_image"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/route_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BEFFFFFF"
+                android:paddingLeft="16dp"
+                android:text="Cheese Grater"
+                android:textSize="32sp"
+                app:layout_constraintBottom_toBottomOf="@+id/route_image"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/typeSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/route_image"
+                app:layout_constraintTop_toBottomOf="@+id/route_image">
+
+                <TextView
+                    android:id="@+id/route_type_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:text="Type"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/route_type_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="Boulder" />
+            </LinearLayout>
+
+            <TableRow
+                android:id="@+id/hr"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="8dp"
+                android:background="#444"
+                app:layout_constraintEnd_toEndOf="@+id/typeSection"
+                app:layout_constraintTop_toBottomOf="@+id/typeSection"></TableRow>
+
+            <LinearLayout
+                android:id="@+id/ratingSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/hr"
+                app:layout_constraintTop_toBottomOf="@+id/hr">
+
+                <TextView
+                    android:id="@+id/route_rating_label"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:text="Rating"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/route_rating_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="v1" />
+            </LinearLayout>
+
+            <TableRow
+                android:id="@+id/hr2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="8dp"
+                android:background="#444"
+                app:layout_constraintEnd_toEndOf="@+id/ratingSection"
+                app:layout_constraintTop_toBottomOf="@+id/ratingSection"></TableRow>
+
+            <LinearLayout
+                android:id="@+id/setterSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/hr2"
+                app:layout_constraintTop_toBottomOf="@+id/hr2">
+
+                <TextView
+                    android:id="@+id/route_setter_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:text="Setter"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/route_setter_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="David Lin" />
+            </LinearLayout>
+
+            <TableRow
+                android:id="@+id/hr3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="8dp"
+                android:background="#444"
+                app:layout_constraintEnd_toEndOf="@+id/setterSection"
+                app:layout_constraintTop_toBottomOf="@+id/setterSection"></TableRow>
+
+            <LinearLayout
+                android:id="@+id/expDateSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/hr3"
+                app:layout_constraintTop_toBottomOf="@+id/hr3">
+
+                <TextView
+                    android:id="@+id/route_exp_date_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:text="Exp Date"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/route_exp_date_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="12/2/2020" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/personal_log"
+        android:icon="@drawable/log"
+        android:title="Personal Log"/>
+
+    <item
+        android:id="@+id/routes_list"
+        android:icon="@drawable/list"
+        android:title="Routes List"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/person"
+        android:title="Profile"/>
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <EditText
+        android:id="@+id/et_first_name"
+        style="@style/edtCustom"
+        android:drawableLeft="@drawable/account_key"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        android:layout_below="@id/toolbar"/>
+    <EditText
+        android:id="@+id/et_last_name"
+        style="@style/edtCustom"
+        android:drawableLeft="@drawable/account_key"
+        android:layout_below="@id/et_first_name"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/edtCustom"
+        android:drawableLeft="@drawable/email_multiple"
+        android:ems="10"
+        android:layout_below="@id/et_last_name"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/edtCustom"
+        android:drawableLeft="@drawable/lock_check"
+        android:layout_below="@id/et_email"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/btnCustom"
+        android:layout_below="@id/et_password"
+        android:text="@string/create_act"
+        />
+</RelativeLayout>
+</ScrollView>
